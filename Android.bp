@@ -12,3 +12,12 @@ license {
         "NOTICE"
     ],
 }
+
+cc_binary {
+    name: "hello_world",
+    srcs: ["hello_world.cpp"],
+    cflags: [
+        "-Wall",
+        "-pedantic",
+    ],
+ }
