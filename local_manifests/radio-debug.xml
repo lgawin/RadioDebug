@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="vendor/foqus/RadioDebug" name="RadioDebug" remote="local-fs" revision="main" />
+</manifest>
