@@ -37,5 +37,5 @@ android_library {
         "androidx.core_core-ktx",
      ],
     manifest: "radio-debug/AndroidManifest.xml",
-    sdk_version: "current",
+    platform_apis: true,
 }

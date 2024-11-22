@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="vendor/foqus/RadioDebug" name="RadioDebug" remote="local-fs" revision="main" />
+    <remote name="github-lgawin" fetch="https://github.com/lgawin" />
+    <project path="vendor/foqus/RadioDebug" name="RadioDebug" remote="github-lgawin" revision="main" />
 </manifest>
