@@ -25,9 +25,17 @@ cc_binary {
 android_library {
     name: "RadioDebug",
     srcs: [
-        "src/dev/foqus/HelloWorld.java",
+        "radio-debug/common/src/**/*.kt",
+        "radio-debug/platform/src/**/*.kt",
     ],
     resource_dirs: [],
-    manifest: "src/AndroidManifest.xml",
+    static_libs:[
+        "androidx.annotation_annotation",
+        "androidx.core_core",
+        "kotlinx-coroutines-android",
+        "kotlinx-coroutines-core",
+        "androidx.core_core-ktx",
+     ],
+    manifest: "radio-debug/AndroidManifest.xml",
     sdk_version: "current",
 }
