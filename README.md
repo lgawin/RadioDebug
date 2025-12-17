@@ -13,8 +13,8 @@ Copy `local_manifests/*.xml` into your AOSP's `.root/local_manifests`.
 ```shell
 AOSP_ROOT=/sources/aosp
 
-mkdir -p $AOSP_ROOT/local_manifests
-cp ./local_manifests/*.xml $AOSP_ROOT/local_manifests/
+mkdir -p $AOSP_ROOT/.repo/local_manifests
+cp ./local_manifests/*.xml $AOSP_ROOT/.repo/local_manifests/
 ```
 
 ### sync repo
