@@ -8,7 +8,7 @@ Tool to investigate `RadioManager` capabilities.
 
 First you need to instruct repo to add `RadioDebug` project to your AOSP sources.
 
-Copy `local_manifests/*.xml` into your AOSP's `.root/local_manifests`.
+Copy `local_manifests/*.xml` into your AOSP's `.repo/local_manifests`.
 
 ```shell
 AOSP_ROOT=/sources/aosp
